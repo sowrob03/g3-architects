@@ -198,17 +198,15 @@ header{
 }
 
 /* Award winning Section */
-.some-fact{
+.award-winning-container{
   margin-top: 130px;
 }
-.some-fact h3{
+.award-winning-container h3{
   color:#131313;
   font-size:2.8rem;
   font-weight: 700;
-
-
 }
-.some-fact p{
+.award-winning-container p{
   color:#727272;
   font-size:1rem;
   line-height: 26px;
@@ -216,7 +214,33 @@ header{
   margin-bottom: 20px;
 }
 
+.winning-card{
+  display:flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+.card{
+  border: 1px solid #FFA338;
+  border-radius:8px;
+  padding:30px;
+}
 
+.card img{
+  margin-bottom:9px;
+}
+.card h4{
+  font-size:2.8rem;
+  font-weight: 600;
+  margin-top:8px;
+  margin-bottom: 8px;
+}
+.card p{
+  color:#727272;
+  font-size:1.25rem;
+  font-weight: 600;
+}
 /* Responsive media query mini device*/
 @media screen and (max-width:576px) {
    .navbar,
